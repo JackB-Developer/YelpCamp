@@ -1,4 +1,3 @@
-# YelpCamp
 RESTFUL ROUTES
 
 name        url         verb        description
@@ -15,6 +14,3 @@ CREATE      campgrounds/:id/comments            POST
 
 Google Maps API
 AIzaSyARwfpbfvHN_FQG-6MHL2HoDVWDTnK9rK8
-
-
-# These are changes on the new branch
