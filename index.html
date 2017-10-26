@@ -9,7 +9,8 @@
     <body>
     
     <div class="container">
-        <% if(error && error.length > 0){ %>
+       <script>
+	       <% if(error && error.length > 0){ %>
             <div class="alert alert-danger" role="alert">
                 <%= error %>
             </div>
@@ -19,6 +20,7 @@
                 <%= success %>
             </div>
         <% } %>
+	    </script>
     </div>
     
     <div id="landing-header">
@@ -33,5 +35,6 @@
       <li></li>
       <li></li>
     </ul>
-
+<sript>
 <% include partials/footer %>
+	</script>
